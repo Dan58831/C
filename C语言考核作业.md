@@ -55,8 +55,8 @@ int main()
 
 7. #define 和 const 的区别
 
-#define 是预处理阶段进行文本替换，没有类型检查
-const 定义的是具有具体类型的只读变量，有类型检查
+#define 是预处理阶段进行文本替换，没有类型不占内存
+const 定义的是具有具体类型的只读变量
 
 8. int fun(int a)
    {
